@@ -1,5 +1,7 @@
 # REST API 의 기본 
 
+- 구성요소  3 가지 : 자원 `URI`에 명시 ,  행위 (http method) `CRUD` , 표현
+
 - 플랫폼 종속적이지 않음 
 
 - 처리 후 반환 data 를 json 이나 xml 로 전달 ( 특정 language 에 종속 x ) 
