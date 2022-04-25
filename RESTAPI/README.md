@@ -1,6 +1,10 @@
 # REST API 의 기본 
 
-- 구성요소  3 가지 : 자원 `URI`에 명시 ,  행위 (http method) `CRUD` , 표현
+- 구성요소  3 가지 
+
+    - 자원 : `URI` 에 명시 
+    - 행위 : HTTP method ( CRUD ) 
+    - 표현
 
 - 플랫폼 종속적이지 않음 
 
@@ -35,4 +39,8 @@
   - @RequestBody 
 
   - @CrossOrigin : 뒤에 url 설정에 있는 곳들만 접근 가능 ( 보안성 ) 
+
+- dependency 
+   
+   - Jackson library 2개 설정 
 
