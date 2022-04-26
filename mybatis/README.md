@@ -6,6 +6,8 @@
 
 - 복잡한 JDBC 코드 다 벗어냄 ( ResultSet , Prepared.. , connection 등등 ) 
 
+- Mybatis 에서 DB 구현을 하기 위해서는 SqlSession 이 필요하다 
+
 - pom.xml
 
     - mybatis  , mybatis-spring 추가 
