@@ -1,5 +1,8 @@
 # REST API 의 기본 
 
+<h4> 자원 URI + GET/POST/PUT/DELETE </h4> 
+
+----
 - 구성요소  3 가지 
 
     - 자원 : `URI` 에 명시 
