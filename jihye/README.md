@@ -24,7 +24,7 @@
 
     - tomcat / webapps 에 war 파일 가져다 놓고 
 
-    - tomcat / bin / startup 하면 , 자동으로 war 압축 풀림 
+    - tomcat / bin / startup 하면 , localhost:8080 입력시,  자동으로 war 압축 풀림 
 
     - context-root 입력하면 페이지 나옴 
 
