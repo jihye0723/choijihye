@@ -47,4 +47,5 @@
     ```
 
     id 값은 `namespace.id`이다. parmeterType 은 dto 의 풀네임을 작성해주어야 하지만, typeAlias 로 별칭을 지어주었다. 그게 member 
+    ` but !!! parameterType 에 dto 말고, java의 wrapperclass ex) Map, Integer, .. 은 앞글자를 소문자로 하고 그냥 적어주면 됨 `
     - #{} 로, 매개변수에서 불러올 변수값을 넣어주었다. 해당 이름은 기존에 넣어주던 값과 이름이 같아야지 자동으로 매핑되어진다. 
