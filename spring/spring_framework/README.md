@@ -1,4 +1,4 @@
-# Spring Framework  
+# Spring Framework 작성 
 * Application Context
 
   - BeanFactory 인터페이스를 상속받은 하위 인터페이스로써, 스프링 컨테이너이다. 
