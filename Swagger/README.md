@@ -30,6 +30,11 @@
     - @Configuration : swagger 설정을 작성해놓은 자바 클래스 파일
 
     - @EnableSwagger2 추가 
+
+    - paths() 부분은 controller 에 requestmapping 이나 get/postmapping 으로 명시되어 있는 url 이전까지만 
+    ``` 
+    @GetMapping("/user") 이면 그냥 paths(regex("/") 로 해주면 /user로 됨 
+    ```
    
 - Dto
 
