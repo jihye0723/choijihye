@@ -18,9 +18,9 @@
 
     - `@RestController` 추가 필수 
 
-    - @ApiOperation 
+    - @ ApiOperation 
 
-          - value : 제목? 별칭 ?
+         - value : 제목? 별칭 ?
           - notes : 부가 설명 
 
 - SwaggerConfiguration 
@@ -28,7 +28,12 @@
     - @Configuration : swagger 설정을 작성해놓은 자바 클래스 파일
 
     - @EnableSwagger2 추가 
-    - 
+   
+- Dto
+
+    - @ApiModel 어노테이션 추가 (value="제목", description="설명")
+
+    - @ApiModelProperty(value="") : 각 변수에 대한 설명 추가 할 수 있음 
 
 ---
 
