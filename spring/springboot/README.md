@@ -57,7 +57,7 @@
 
 - jsp 사용  ( springboot 에서는 jsp 지원 해주지 않음 ) 
 
-  - src/ main / webapp / WEB-INF / 에 직접 파일 생성해 주어야 함 
+  - src/ main / webapp / WEB-INF / views / jsp 직접 파일 생성해 주어야 함 
 
   - application.properties 파일에 설정해줘야한다 prefix, suffix 
 
