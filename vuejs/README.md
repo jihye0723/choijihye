@@ -45,4 +45,11 @@
 
     - `updated` : 데이터가 바뀌면서 호출 , created 와 비슷하게, 백앤드와 통신해서 데이터를 얻어옴 
            
-           
+     
+    - vue 객체 안에 있는 변수를 vue 객체 안에서 사용할 때에는 `this` 사용해줘야함 . (ex )  this.count ) 
+
+    - created 이전에, vue 안에 있는 변수를 사용하면 undefined 출력 됨 , created 이전에는 단순 깡통 vue 객체만 만들어주고, 안에 el 이나 data는 생성 안된 시점 
+
+    - created 가 호출되면, data 생성 및 초기화 됨 / el 은 아직 undefined 
+
+    - mounted 가 호출되면, el 생성 및 초기화 
