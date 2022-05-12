@@ -49,7 +49,9 @@
 
 - npm run serve : 실행 
 
-- npm i axios : axios 설치 
+- npm i axios : axios 설치 ( Terminal 에서 ) 
+
+- import axios from "axios"; : 설치 후 사용 
 
 
 - router 에 import 에서 상대경로는 위험도가 있기 때문에 `jsconfig.json` 파일에 
@@ -70,3 +72,14 @@
       }
 ```
 
+- axios를 여러곳에서 사용하면서, 주소를 매번 호출해야 할때는 
+```
+export default axios.create( {
+    baseURL: "http://localhost:9999/vue",
+    headers: {
+        "Content-Type" :"application/json"
+    }
+})
+``` 
+- axios 객체를 생성해서 내보내기 , 생성을 위해 create 사용 하고, json 형태로 내보내기 
+- 그러면 axios 사용할 때마다 해당 axios 를 import 해서, axios이름. get("/board") 이런식으로 사용 하면 baseUrl/board 로 통신 
