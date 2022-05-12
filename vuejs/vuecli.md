@@ -30,11 +30,14 @@
 
 ---
 # vs code 에서 열기 
+
 - node_modules 파일은 사이즈가 너무 크기때문에 gitignore 로 git 에 올라가지 않음 
 
 - public / index.html : `html 파일 하나만 있음`  -> SPA (single page application ) 
 
 - 많은 js 파일이나, vue 파일 등을 webpack 이 압축해서 index.html 에서 사용할 수 있게 해줌 !! 
+
+- Component 나 View 이름은 합성어로 !!!! 
 
 - `view : 화면 / component : 그 화면안에서 갈아끼우는 블럭들 !! `
 
@@ -48,13 +51,22 @@
 
 - npm i axios : axios 설치 
 
+
 - router 에 import 에서 상대경로는 위험도가 있기 때문에 `jsconfig.json` 파일에 
 
 ```
-  "@/*": [
+         "@/*": [
         "src/*"
 ``` 
-로 src -> @ 로 지정 
+로 src -> @ 로 지정 ( ../view/HomeView.vue -> @/view/HomeView.vue 로 가능 !! )
 
-- 
+
+- router 
+```
+      {
+        path: "url 경로",
+        name: "이름 ", ( :to 로 바인딩할때는 이름으로 함 , to= 는 url ) 
+        component: 컴포넌트 이름 
+      }
+```
 
