@@ -40,6 +40,21 @@
 
           - view : ( template : 화면에 뿌리는 html - `root element 하나 !!`) , (script : javascript ) , (style : css ) 
 
+- LF / CRLF : 기본적인 vieew 는 lf 임 , 우리가 만들면 crlf 라서 (error  Delete `␍`) 발생 
+- "prettier/prettier": ["error", { "endOfLine": "auto" }]  를 package.json(설정파일) 에 rules 에 추가 
+          - 설정 파일 따로 만들게 했을때는, .eslintrc.js 의 rules 에 
 
 - npm run serve : 실행 
+
+- npm i axios : axios 설치 
+
+- router 에 import 에서 상대경로는 위험도가 있기 때문에 `jsconfig.json` 파일에 
+
+```
+  "@/*": [
+        "src/*"
+``` 
+로 src -> @ 로 지정 
+
+- 
 
