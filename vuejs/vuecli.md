@@ -26,3 +26,8 @@
 - npm run server 블라블라 
 
 - home / about 누를때 마다 router 화면 바뀌는 지 확인 !! 
+
+
+---
+- node_modules 파일은 사이즈가 너무 크기때문에 gitignore 로 git 에 올라가지 않음 
+
