@@ -2,7 +2,7 @@
 
 - vue, router, axios 등등 자동 세팅 가능 
 
-- create vue 파일명 
+- vue create 파일명 
 
 - manually 
 
