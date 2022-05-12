@@ -67,7 +67,7 @@
 ```
       {
         path: "url 경로",
-        name: "이름 ", ( :to 로 바인딩할때는 이름으로 함 , to= 는 url ) 
+        name: "이름 ", ( :to ="{name: 이름 }" 로 바인딩할때는 이름으로 함 , to="/url" 는 url ) 
         component: 컴포넌트 이름 
       }
 ```
