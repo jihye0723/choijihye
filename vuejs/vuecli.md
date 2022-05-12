@@ -83,3 +83,7 @@ export default axios.create( {
 ``` 
 - axios 객체를 생성해서 내보내기 , 생성을 위해 create 사용 하고, json 형태로 내보내기 
 - 그러면 axios 사용할 때마다 해당 axios 를 import 해서, axios이름. get("/board") 이런식으로 사용 하면 baseUrl/board 로 통신 
+
+- 앱 전체에 적용할 stylesheet ==> App.vue / style 
+
+          - 나만 사용할꺼면, 해당 파일의 style 에서 scope 
