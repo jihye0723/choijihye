@@ -87,3 +87,6 @@ export default axios.create( {
 - 앱 전체에 적용할 stylesheet ==> App.vue / style 
 
           - 나만 사용할꺼면, 해당 파일의 style 에서 scope 
+
+
+- npm install vue bootstrap bootstrap-vue
